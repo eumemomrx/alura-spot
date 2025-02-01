@@ -1,16 +1,16 @@
 .main-container{
     max-width: 80vw;
     height: 100vh;
-    margin-left: 320px;
-    margin-right: 56px;
+    margin-left: 20rem;
+    margin-right: 3.5rem;
 }
 .header_navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
-    margin: 10px;
-    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.625rem;
+    border-radius: 0.5rem;
     background-color: #121212;
 }
 .header_navigation .navigation{
@@ -25,8 +25,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
     background: var(--bg-icon);
     background-color: var(--bg-arrow-color);
     border-radius: 50%;
@@ -40,22 +40,22 @@
 .header_search{
     display: flex;
     align-items: center;
-    width: 364px;
-    height: 48px;
-    margin-left: 8px;
+    width: 22.75rem;
+    height: 3rem;
+    margin-left: 0.5rem;
     background-color: #242424;
-    border-radius: 500px;
+    border-radius: 31.25rem;
     border: 1px solid transparent;
 }
 .header_search img{
-    width: 16px;
-    height: 16px;
-    margin-left: 10px;
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.625rem;
 }
 .header_search input{
     background: transparent;
     border: none;
-    padding: 0px 100px 0 12px;
+    padding: 0px 6.25rem 0 0.75rem;
     color: #fff;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -65,47 +65,47 @@
 .header_login .subscribe{
     border: none;
     color: #a7a7a7;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     background-color: transparent;
-    margin-right: 32px;
+    margin-right: 2rem;
 }
 .header_login .login{
     border: none;
-    width: 100px;
-    height: 48px;
+    width: 6.25rem;
+    height: 3rem;
     color: #000;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
-    border-radius: 40px;
+    border-radius: 2.5rem;
 
 }
 
 
 .playlist-container{
-    padding-top: 16px;
-    margin: 10px;
-    border-radius: 10px;
+    padding-top: 1rem;
+    margin: 0.625rem;
+    border-radius: 0.625rem;
     background-color: #121212;
     height: 66vh;
 }
 .playlist{
-    margin: 24px;
+    margin: 1.5rem;
 }
 .playlist #greeting{
     color: #fff;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
-    margin-bottom: 48px;
+    margin-bottom: 3rem;
 }
 .playlist .session{
     color: #fff;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 .offer_scroll-container{
     max-height: 43vh;
-    margin: 24px;
+    margin: 1.5rem;
     overflow-y: auto;
 }
 .offer_scroll-container::-webkit-scrollbar{
@@ -118,27 +118,27 @@
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 16px;
-    gap: 16px;
-    margin-bottom: 16px;
+    grid-gap: 1rem;
+    gap: 1rem;
+    margin-bottom: 1rem;
 
     display: grid;
-    gap: 16px;
-    grid-gap: 32px;
+    gap: 1rem;
+    grid-gap: 2rem;
     margin: 0 auto;
 }
 .cards{
     position: relative;
-    width: 220px;
-    height: 200px;
+    width: 13.75rem;
+    height: 12.5rem;
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 .cards span{
-    padding: 16px;
+    padding: 1rem;
     position: absolute;
     color: #fff;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -193,30 +193,30 @@
     right: 0;
     bottom: 0;
     height: auto;
-    width: 107px;
+    width: 6.688rem;
     transform: rotate(25deg) translate(18%, -2%);
   }
   .artist{
     --column-count: 5;
-    --grid-gap: 24px;
-    --min-container-width: 372px;
+    --grid-gap: 1.5rem;
+    --min-container-width: 23.25rem;
   }
   .hidden{
     display: none;
   }
   .grid-container{
-    grid-gap: 24px;
+    grid-gap: 1.5rem;
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
-    min-width: 767px;
+    min-width: 47.938rem;
   }
   .artist-card{
     background: #181818;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     -ms-flex: 1;
     flex: 1;
     isolation: isolate;
-    padding: 16px;
+    padding: 1rem;
     position: relative;
     transition: background-color 0.3s ease;
     width: 100%;
@@ -228,7 +228,7 @@
     padding-bottom: 100%; 
     position: relative;
     width: 100%;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
   }
   .artist-img{
     height: 100%;
@@ -245,7 +245,7 @@
     overflow: hidden; 
     text-overflow: ellipsis;
     white-space: nowrap;
-    min-height: 62px;
+    min-height: 3.875rem;
   }
   .card-text a{
     display: inline-block;
@@ -255,9 +255,9 @@
   .artist-name{
     box-sizing: border-box;
     margin-block: 0px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
-    padding-block-end: 8px;
+    padding-block-end: 0.5rem;
   }
   .artist-categorie{
     color: #6a6a6a;
@@ -269,23 +269,23 @@
  }
  .play .fa-play{
     position: absolute;
-    right: 10px;
-    top: 120px;
-    padding: 18px;
+    right: 0.625rem;
+    top: 7.5rem;
+    padding: 1.125rem;
     background-color: #1db954;
     border-radius: 100%;
-    font-size: 14px;
+    font-size: 0.875rem;
     opacity: 0;
     transition: all ease 0.4s;
  }
  .artist-card:hover .play .fa-play{
     opacity: 1;
-    transform: translateY(-20px);
+    transform: translateY(-1.25rem);
  }
  .play .fa-play:hover{
-    padding: 20px;
+    padding: 1.25rem;
     cursor: pointer;
  }
  #result-artist{
-    padding: 20px 40px;
+    padding: 1.25rem 2.5rem;
  }
